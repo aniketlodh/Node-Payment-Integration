@@ -2,7 +2,7 @@ require("dotenv").config()
 var express=require("express");
 var app=express();
 var bodyParser=require("body-parser");
-var PORT=3000 || process.env.PORT;
+var PORT=process.env.PORT|| 3000;
 var Insta = require('instamojo-nodejs');
 Insta.setKeys(process.env.API_KEY,process.env.AUTH_KEY );
 app.set("view engine","ejs");
