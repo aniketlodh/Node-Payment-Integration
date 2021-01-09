@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+}
+.text-center{
+    text-align: center;
+}
+/* .mission{
+    background-image: url("https://images.unsplash.com/photo-1552873816-636e43209957?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzl8fGNoaWxkcmVuJTIwcGxheWluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    color:white;
+} */
+/* .donate{
+    align-items: center;
+} */
+.achievements p{
+    font-size: 0.9rem;
+}
+.benefits{
+    background-image: url("https://images.unsplash.com/photo-1554652532-bc503a3072cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.card{
+    height: 17rem;   
+}
+.promise{
+    background-color: #ffffff;
+    padding: 30px;
+    width: 650px;
+    margin: auto;
+    box-shadow: 4px 3px 3px black;
+    border-radius: 5px;
+}
+#childrenPromise li{
+    font-size: 0.8rem;
+}
+i{
+    color:orange;
+    margin-bottom:10px;
+}
+#donateForm{
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+footer{
+    background-color: #26272B;
+    color:white;
+    padding: 20px;
+}
+footer h2{
+    color: orange
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color: orange;
+    text-decoration: none;
+}
