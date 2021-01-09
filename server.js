@@ -46,5 +46,5 @@ app.get("/success",(req,res)=>{
     res.send("Payment was successful. Please check your email for invoice");
 })
 app.listen(PORT,()=>{
-    console.log(`Server started at ${PORT}`);
+    console.log(`Server started`);
 })
