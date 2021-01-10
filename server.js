@@ -30,7 +30,7 @@ app.post("/pay",(req,res)=>{
     data.amount = amount;                 
     data.name=name;
     data.email=email;
-    data.setRedirectUrl("https://nodepayment.herokuapp/success");
+    data.setRedirectUrl("https://nodepayment.herokuapp.com/success");
     data.send_email ="True"   
     Insta.createPayment(data, function(error, response) {
         if (error) {
