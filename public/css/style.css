@@ -59,3 +59,9 @@ footer a:hover{
     color: orange;
     text-decoration: none;
 }
+footer #dev a{
+    color:orange;
+}
+footer #dev a:hover{
+    color:white;
+}
